@@ -6,7 +6,7 @@ import tempfile
 
 app = Flask(__name__)
 
-@app.route('/merge-pdf', methods=['POST'])
+@app.route('/merge-pdf-api-2', methods=['POST'])
 def merge_pdf():
     merger = PdfMerger()
     temp_files = []
